@@ -1,5 +1,6 @@
 
 public class Enderco {
+	
 	private String rua;
 	private int numero;
 	private String cep;
@@ -37,4 +38,16 @@ public class Enderco {
 		this.estado = estado;
 	}
 	
+	public String toString() {
+		String texto = "";
+		
+		texto = "------------------"
+				+ "\n Rua: " + getRua()
+				+ "\n numero: " + getNumero()
+				+ "\n cep: " + getCep()
+				+ "\n Cidade: " + getCidade()
+				+ "\n Estado: " + getEstado();
+		
+		return texto;
+	}
 }
