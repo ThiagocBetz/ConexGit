@@ -42,9 +42,9 @@ public class Enderco {
 		String texto = "";
 		
 		texto = "------------------"
-				+ "\n Rua: " + getRua()
+				+ "\n Rua   : " + getRua()
 				+ "\n numero: " + getNumero()
-				+ "\n cep: " + getCep()
+				+ "\n cep   : " + getCep()
 				+ "\n Cidade: " + getCidade()
 				+ "\n Estado: " + getEstado();
 		
