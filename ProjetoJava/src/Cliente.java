@@ -1,4 +1,4 @@
-
+//nao sei
 public class Cliente extends Enderco {
 	private int clienteid;
 	private String nome;
