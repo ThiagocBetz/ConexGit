@@ -47,10 +47,7 @@ public class Teste {
 			System.out.println("Nome: "+ pessoa.getNome());
 			System.out.println("Id: "+ pessoa.getClienteid());
 			System.out.println("Cpf: "+ pessoa.getCpf());
-			System.out.println("Cidade: "+ pessoa.getCidade());
-			System.out.println("Cep: "+ pessoa.getCep());
-			System.out.println("Estado: "+ pessoa.getEstado());
-			System.out.println("Rua: "+ pessoa.getRua());
+			System.out.println(pessoa.toString());
 			System.out.println("-------------------------------------");
 		}
 		if(escolha == 2) {
@@ -93,10 +90,7 @@ public class Teste {
 			System.out.println("Nome: "+ pessoa.getNome());
 			System.out.println("Id: "+ pessoa.getClienteid());
 			System.out.println("Cpf: "+ pessoa.getCnpj());
-			System.out.println("Cidade: "+ pessoa.getCidade());
-			System.out.println("Cep: "+ pessoa.getCep());
-			System.out.println("Estado: "+ pessoa.getEstado());
-			System.out.println("Rua: "+ pessoa.getRua());
+			System.out.println(pessoa.toString());
 			System.out.println("-------------------------------------");
 	
 		}
