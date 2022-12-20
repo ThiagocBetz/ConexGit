@@ -38,16 +38,8 @@ public class Enderco {
 		this.estado = estado;
 	}
 	
+	@Override
 	public String toString() {
-		String texto = "";
-		
-		texto = "------------------"
-				+ "\n Rua   : " + getRua()
-				+ "\n numero: " + getNumero()
-				+ "\n cep   : " + getCep()
-				+ "\n Cidade: " + getCidade()
-				+ "\n Estado: " + getEstado();
-		
-		return texto;
+		return "Enderco rua: " + rua + "\n numero: " + numero + "\n cep: " + cep + "\n cidade: " + cidade + "\n estado: " + estado;
 	}
 }
