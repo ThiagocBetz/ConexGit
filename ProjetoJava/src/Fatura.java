@@ -36,15 +36,9 @@ public class Fatura {
 		public void setPago(boolean pago) {
 			this.pago = pago;
 		}
-		public double ValorFatura(double f1) {
+		public double ValorFatura() {
 			
 			return 0;
-		}
-		public String toString() {
-			String palavra = null;
-			
-			
-			return palavra;
 		}
 		public void imprimirFatura(Fatura vetor[]) {
 			

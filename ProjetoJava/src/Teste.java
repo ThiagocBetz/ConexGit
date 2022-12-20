@@ -10,7 +10,6 @@ public class Teste {
 		int escolha = teclado.nextInt();
 		if(escolha == 1) {
 			PessoaFisica pessoa = new PessoaFisica();
-			Enderco enderco = new Enderco();
 			System.out.println("Digite seu nome");
 			String nome = teclado.next();
 			pessoa.setNome(nome);
@@ -36,14 +35,15 @@ public class Teste {
 			String rua = teclado.next();
 			pessoa.setRua(rua);
 			
-			System.out.println("_____________________________________");
-			System.out.println(pessoa.getNome());
-			System.out.println(pessoa.getClienteid());
-			System.out.println(pessoa.getCep());
-			System.out.println(pessoa.getCidade());
-			System.out.println(pessoa.getCep());
-			System.out.println(pessoa.getEstado());
-			System.out.println(pessoa.getRua());
+			System.out.println("-------------------------------------");
+			System.out.println("Nome: "+ pessoa.getNome());
+			System.out.println("Id: "+ pessoa.getClienteid());
+			System.out.println("Cpf: "+ pessoa.getCpf());
+			System.out.println("Cidade: "+ pessoa.getCidade());
+			System.out.println("Cep: "+ pessoa.getCep());
+			System.out.println("Estado: "+ pessoa.getEstado());
+			System.out.println("Rua: "+ pessoa.getRua());
+			System.out.println("-------------------------------------");
 		}
 		if(escolha == 2) {
 			PessoaJuridica pessoa = new PessoaJuridica();
@@ -72,14 +72,16 @@ public class Teste {
 			System.out.println("Digite sua rua");
 			String rua = teclado.next();
 			pessoa.setRua(rua);
-			
-			System.out.println(pessoa.getNome());
-			System.out.println(pessoa.getClienteid());
-			System.out.println(pessoa.getCep());
-			System.out.println(pessoa.getCidade());
-			System.out.println(pessoa.getCnpj());
-			System.out.println(pessoa.getEstado());
-			System.out.println(pessoa.getRua());
+
+			System.out.println("-------------------------------------");
+			System.out.println("Nome: "+ pessoa.getNome());
+			System.out.println("Id: "+ pessoa.getClienteid());
+			System.out.println("Cpf: "+ pessoa.getCnpj());
+			System.out.println("Cidade: "+ pessoa.getCidade());
+			System.out.println("Cep: "+ pessoa.getCep());
+			System.out.println("Estado: "+ pessoa.getEstado());
+			System.out.println("Rua: "+ pessoa.getRua());
+			System.out.println("-------------------------------------");
 	
 		}
 		
