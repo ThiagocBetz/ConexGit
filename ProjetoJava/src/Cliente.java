@@ -1,5 +1,5 @@
-//nao sei
-public class Cliente {
+
+public class Cliente extends Enderco{
 	private int clienteid;
 	private String nome;
 	private Enderco enderco;

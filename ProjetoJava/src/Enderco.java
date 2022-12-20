@@ -6,7 +6,7 @@ public class Enderco {
 	private String cep;
 	private String cidade;
 	private String estado;
-	//ssssa
+
 	public String getRua() {
 		return rua;
 	}

@@ -36,9 +36,9 @@ public class Fatura {
 		public void setPago(boolean pago) {
 			this.pago = pago;
 		}
-		public double ValorFatura() {
-			return 0;
+		public double ValorFatura(double f1) {
 			
+			return 0;
 		}
 		public String toString() {
 			String palavra = null;
@@ -50,4 +50,3 @@ public class Fatura {
 			
 		}
 }
-//123
