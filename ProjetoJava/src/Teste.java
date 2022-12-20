@@ -35,6 +35,15 @@ public class Teste {
 			System.out.println("Digite sua rua");
 			String rua = teclado.next();
 			pessoa.setRua(rua);
+			
+			System.out.println("_____________________________________");
+			System.out.println(pessoa.getNome());
+			System.out.println(pessoa.getClienteid());
+			System.out.println(pessoa.getCep());
+			System.out.println(pessoa.getCidade());
+			System.out.println(pessoa.getCep());
+			System.out.println(pessoa.getEstado());
+			System.out.println(pessoa.getRua());
 		}
 		if(escolha == 2) {
 			PessoaJuridica pessoa = new PessoaJuridica();
